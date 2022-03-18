@@ -1,9 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
-from. import resume_scane
 from django.core.files.storage import FileSystemStorage
 from django.conf import settings
-from PyPDF2 import PdfFileReader
 import os
 from. import video2text
 from. import extract_skills
