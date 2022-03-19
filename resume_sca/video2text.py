@@ -26,7 +26,7 @@ def get_large_audio_transcription(path):
         min_silence_len = 500,
         # adjust this per requirement
         silence_thresh = sound.dBFS-14,
-        # keep the silence for 1 second, adjustable as well
+        # keep the silence for 1 second, adjustable asss
         keep_silence=500,
     )
     #chunks=make_chunks(sound,800)
