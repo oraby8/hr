@@ -56,7 +56,7 @@ def new_search(request):
 
     
 
-    allout={'out':output,'name':name,'skills':skills,}
+    allout={'out':output,'name':name,'skills':skills,'text':new_search}
     #delete file after finsh
     '''
     if pdf != None:
